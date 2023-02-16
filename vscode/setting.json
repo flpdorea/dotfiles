@@ -1,0 +1,63 @@
+{
+	"workbench.editorAssociations": {
+		"*.ipynb": "jupyter-notebook"
+	},
+	"notebook.cellToolbarLocation": {
+		"default": "right",
+		"jupyter-notebook": "left"
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"material-icon-theme.activeIconPack": "nest",
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"workbench.startupEditor": "none",
+	"editor.formatOnPaste": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true,
+	"thunder-client.responseLimit": 50,
+	"thunder-client.showReleaseNotes": false,
+	"tabnine.experimentalAutoImports": true,
+	"thunder-client.saveToWorkspace": true,
+	"eslint.packageManager": "yarn",
+	"editor.formatOnSave": true,
+	"eslint.format.enable": true,
+	"eslint.run": "onSave",
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": [
+		"javascript"
+	],
+	"eslint.rules.customizations": [],
+	"[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"eslint.notebooks.rules.customizations": [],
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"eslint.lintTask.enable": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"workbench.tree.indent": 15,
+	"explorer.compactFolders": false,
+	"workbench.colorCustomizations": {
+		"tree.indentGuidesStroke": "#ffffff"
+	},
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	},
+	"editor.tabSize": 2,
+	"workbench.colorTheme": "GitHub Dark Dimmed",
+	"editor.inlineSuggest.enabled": true,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+}
