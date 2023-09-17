@@ -1,0 +1,28 @@
+export ZDOTDIR="$HOME/.config/zsh"
+
+bindkey -s -e "^o" "$HOME/.local/bin/tmux-sessionizer^M"
+bindkey -s -e "^t" "tmux a || tmux new^M"
+
+# Custom prompt
+export PS1="[%n@%m] %~ %# "
+
+# Aliases
+alias ga="git add"
+alias gc="git commit -m"
+alias gs="git status"
+
+alias vim="nvim"
+alias vi="nvim"
+alias n="nvim"
+
+alias ls="ls --color"
+
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+alias shutdown="shutdown now"
+
+# Environment variables set everywhere
+export EDITOR="nvim"
+export TERMINAL="alacritty"
+export BROWSER="brave"

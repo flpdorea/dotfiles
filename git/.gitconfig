@@ -1,0 +1,7 @@
+[user]
+	name = Felipe Dórea
+	email = flpdorea@users.noreply.github.com
+[core]
+	editor = nvim
+[submodule]
+	recurse = true
