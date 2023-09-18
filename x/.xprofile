@@ -1,14 +1,10 @@
-# Environment variables set everywhere
 export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="brave"
+export SHELL=/bin/zsh
 
-# XDG Paths
+export ZDOTDIR=$HOME/.config/zsh
+
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
-
-# Zsh configuration directory
-export ZDOTDIR=$HOME/.config/zsh
-
-export SHELL=/bin/zsh

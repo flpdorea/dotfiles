@@ -1,0 +1,14 @@
+alias ga="git add"
+alias gc="git commit -m"
+alias gs="git status"
+
+alias vim="nvim"
+alias vi="nvim"
+alias n="nvim"
+
+alias ls="ls --color"
+
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
+alias shutdown="shutdown now"

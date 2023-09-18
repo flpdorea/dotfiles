@@ -1,28 +1,12 @@
-export ZDOTDIR="$HOME/.config/zsh"
+source "$ZDOTDIR/zsh-functions"
 
-bindkey -s -e "^o" "$HOME/.local/bin/tmux-sessionizer^M"
-bindkey -s -e "^t" "tmux a || tmux new^M"
+zsh_add_file "zsh-aliases"
+zsh_add_file "zsh-prompt"
+zsh_add_file "zsh-keybinds"
 
-# Custom prompt
-export PS1="[%n@%m] %~ %# "
+zsh_add_plugin "zsh-users/zsh-syntax-highlighting"
+zsh_add_plugin "zsh-users/zsh-autosuggestions"
 
-# Aliases
-alias ga="git add"
-alias gc="git commit -m"
-alias gs="git status"
+autoload -Uz colors && colors
 
-alias vim="nvim"
-alias vi="nvim"
-alias n="nvim"
-
-alias ls="ls --color"
-
-alias cp="cp -i"
-alias mv="mv -i"
-alias rm="rm -i"
-alias shutdown="shutdown now"
-
-# Environment variables set everywhere
-export EDITOR="nvim"
-export TERMINAL="alacritty"
-export BROWSER="brave"
+unsetopt BEEP

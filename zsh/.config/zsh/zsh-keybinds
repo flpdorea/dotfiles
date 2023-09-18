@@ -1,0 +1,2 @@
+bindkey -s -e "^o" "$HOME/.local/bin/tmux-sessionizer^M"
+bindkey -s -e "^t" "tmux a || tmux new^M"
