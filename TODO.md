@@ -1,0 +1,25 @@
+git config submodule.recurse true
+git clone ... --recurse-submodules
+
+TODO:
+- how to update submodules
+- which submodules are necessary (just tpm and then prefix + i)
+- add other programs
+- add encrypted ssh keys (GnuPG gpg)
+- create a README.md
+- create installation script
+- shell scripts (zipping files, manage fonts, update pacman...)
+- vim remaps
+- add neovim plugins
+    - LSP
+    - nvim-tree.lua (file explorer)
+    - nvim-treesitter
+- dockerize it for easily testing in new environment
+
+SEARCH:
+- git bare repos
+
+- tmux script to open project in new session with fzf
+- fix Ctrl+l conflict between clear terminal and vim-tmux-navigator
+
+- crontab job to update arch every friday
