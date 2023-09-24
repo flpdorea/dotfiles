@@ -1,1 +1,8 @@
-export PROMPT="[%n@%m] %~ %# "
+autoload -Uz colors && colors
+autoload -Uz vcs_info
+zstyle ':vcs_info:git:*' formats '(󰘬 %b) '
+
+precmd() { vcs_info }
+
+setopt PROMPT_SUBST
+export PROMPT='%B[%n@%m]%b %U%~%u ${vcs_info_msg_0_}%# '

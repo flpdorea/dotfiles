@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ "$TERM" = "screen" ] && [ -n "$TMUX" ]; then
+	echo 'in tmux already!'
+else
+	tmux a || tmux
+fi

@@ -15,11 +15,24 @@ TODO:
     - nvim-tree.lua (file explorer)
     - nvim-treesitter
 - dockerize it for easily testing in new environment
+- expand prompt git info functionality according to state
+- crontab job to update arch every friday
+- fix Ctrl+l conflict between clear terminal and vim-tmux-navigator
+- customize both zsh plugins (maybe add zsh-users/zsh-completions)
+- remake tmux-attach-create script
+
+DONE:
+- xmodmap swap esc and caps
+- prompt git info
+- tmux script to open project in new session with fzf
 
 SEARCH:
 - git bare repos
 
-- tmux script to open project in new session with fzf
-- fix Ctrl+l conflict between clear terminal and vim-tmux-navigator
 
-- crontab job to update arch every friday
+
+newsboat (rss feed reader)
+mpv (video player)
+feh (image viewer)
+mpd (music player)
+ranger (file manager)
