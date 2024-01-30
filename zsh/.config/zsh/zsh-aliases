@@ -1,6 +1,6 @@
 alias ga="git add"
-alias gc="git commit -m"
 alias gs="git status"
+alias gc="git commit -m"
 
 alias vim="nvim"
 alias vi="nvim"
