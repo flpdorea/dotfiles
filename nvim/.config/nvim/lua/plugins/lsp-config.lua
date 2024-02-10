@@ -12,7 +12,7 @@ return {
 				ensure_installed = {
 					"lua_ls",
 					"clangd",
-					"tsserver",
+					-- "tsserver",
 				},
 			})
 		end,
@@ -23,7 +23,7 @@ return {
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
 			lspconfig.clangd.setup({})
-			lspconfig.tsserver.setup({})
+			-- lspconfig.tsserver.setup({})
 			vim.keymap.set("n", "gD", vim.lsp.buf.declaration, {})
 			vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
