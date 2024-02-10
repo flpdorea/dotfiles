@@ -5,11 +5,16 @@ alias gc="git commit -m"
 alias vim="nvim"
 alias vi="nvim"
 alias n="nvim"
+
+alias zathura="zathura --fork"
 alias z="zathura --fork"
 
 alias ls="ls --group-directories-first --color"
+alias ll="ls -l --group-directories-first --color"
+alias la="ls -la --group-directories-first --color"
 
 alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
+
 alias shutdown="shutdown now"
