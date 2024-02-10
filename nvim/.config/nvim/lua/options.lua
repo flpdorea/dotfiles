@@ -4,4 +4,5 @@ vim.cmd("set shiftwidth=4")
 vim.cmd("set nu rnu")
 vim.cmd("set cursorline")
 vim.cmd("set colorcolumn=80")
+vim.cmd("set scrolloff=999")
 vim.g.mapleader = " "
