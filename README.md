@@ -32,3 +32,9 @@ or just select which one(s) you want:
   stow zsh
 ```
 
+## Additional repositories
+
+This repository contains configurations and scripts for various utilities and applications. However, to fully recreate my environment, you'll need to clone the repositories for my versions of the `st` terminal emulator and the `dwm` window manager as well.
+
+- [st](https://github.com/flpdorea/st)
+- [dwm](https://github.com/flpdorea/dwm)
